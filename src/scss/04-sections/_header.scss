@@ -1,0 +1,25 @@
+.header{
+    &__logo{
+        min-width: 40px;
+        min-height: 40px;
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    &__menu{
+        display: flex;
+        gap: var(--gap);
+
+        &-link{
+            font-size: 1.2rem;
+            font-weight: 600;
+            letter-spacing: .0125rem;
+            text-transform: uppercase;
+            color: $black;
+
+            @media(max-width: $mq-mobile){ font-size: .833rem; }
+
+            &--active{ color: $red; }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 400;
+}

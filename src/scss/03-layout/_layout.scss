@@ -1,0 +1,33 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: $max-width;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: var(--gv) var(--gh);
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--gap);
+}
+.home{
+    width: 100%;
+    padding: var(--gv) 0;
+}
+.artworks{
+    width: 100%;
+    padding: var(--gv) 0;
+}
+.description{
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
